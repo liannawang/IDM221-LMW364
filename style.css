@@ -24,8 +24,13 @@ ul {
   width:100%;
 }
 
+header{
+  position:relative;
+}
+
 .menu-icon{
   height: 1.18rem;
+  float:right;
 }
 @font-face {
     font-family: 'Sporting';
@@ -108,7 +113,9 @@ nav{
   flex: 1;
   text-align: right;
   width:100%;
-  font-family: Moderat, Georgia, 'Times New Roman', Times, serif;
+  font-family: Sporting, Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  line-height: 5rem;
 }
 
   
