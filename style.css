@@ -1,0 +1,85 @@
+
+
+.navbar{
+  width:100%;
+  display:flex;
+  align-items: center;
+}
+
+.menu-icon{
+  width: 25px;
+}
+@font-face {
+    font-family: 'Sporting';
+    src: url('fonts/SportingGrotesque-Regular.otf'); }
+
+@font-face {
+  font-family: 'Moderat';
+  src: url(fonts/Moderat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Founding';
+  src: url(fonts/Test\ Founders\ Grotesk\ 400.otf);
+}
+
+h1{
+  font-family: Founding, Georgia, 'Times New Roman', Times, serif;
+  font-size: 39px;
+  font-weight: 100;
+}
+
+h2{
+  font-family: Sporting, Georgia, 'Times New Roman', Times, serif;
+  font-size: 26px;
+  font-weight:100;
+}
+
+h3{
+  font-family: Founding,Georgia, 'Times New Roman', Times, serif;
+  font-size: 31px;
+  font-weight: 100;
+}
+
+p{
+  font-family: Moderat, Georgia, serif;
+  font-size: 18px;
+}
+
+h1.logo {
+    font-family: Sporting, Georgia, serif;
+      
+    font-size: 20px;}
+  
+body{
+    background-color:#FAF9F6;
+}
+
+.work img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    color: #bbb;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: #444;
+  }
+  
