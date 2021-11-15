@@ -1,4 +1,11 @@
-
+* {
+  box-sizing: border-box;
+}
+/*
+ul {
+  margin: 0 0 1.5em 1.25em;
+}
+*/
 
 .navbar{
   width:100%;
@@ -6,8 +13,18 @@
   align-items: center;
 }
 
+.logo{
+  height: 1.875rem;
+  align-items: left;
+}
+
+.intro{
+  padding-bottom: 3.125rem;
+  width:100%;
+}
+
 .menu-icon{
-  width: 25px;
+  height: 1.18rem;
 }
 @font-face {
     font-family: 'Sporting';
@@ -25,61 +42,104 @@
 
 h1{
   font-family: Founding, Georgia, 'Times New Roman', Times, serif;
-  font-size: 39px;
+  font-size: 2.43em;
   font-weight: 100;
+  padding-bottom: 1.56rem;
+  width:100%;
 }
 
 h2{
   font-family: Sporting, Georgia, 'Times New Roman', Times, serif;
-  font-size: 26px;
-  font-weight:100;
+  font-size: 1.625rem;
+  padding-bottom: 1.56rem;
+  width:100%;
 }
 
 h3{
   font-family: Founding,Georgia, 'Times New Roman', Times, serif;
-  font-size: 31px;
+  font-size: 1.94;
   font-weight: 100;
+  width:100%;
+}
+
+.work p{
+  padding-bottom: 3.125rem;
+  width:100%;
 }
 
 p{
   font-family: Moderat, Georgia, serif;
-  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  width:100%;
 }
 
 h1.logo {
     font-family: Sporting, Georgia, serif;
       
-    font-size: 20px;}
+    font-size: 1.25rem;}
   
 body{
-    background-color:#FAF9F6;
+  background-color: #FFFEFC;
+    margin: 2rem auto;
+    padding: 1.5rem;
+  width: 100%;
+  
+}
+
+.work{
+  text-align: center;
+  width:100%;
 }
 
 .work img{
-    max-width: 300px;
-    max-height: 300px;
+  max-width: 18.75rem;
+  max-height: 18.75rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.25rem;
+    width:100%;
+}
+
+.work h3{
+  padding-bottom: .31rem;
+  width: 100%;
 }
 
 nav{
   flex: 1;
   text-align: right;
+  width:100%;
 }
 
   
   nav ul li {
     list-style: none;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 1.875rem;
+    width:100%
   }
   
   nav ul li a {
     color: #bbb;
     font-weight: normal;
     text-decoration: none;
+    width:100%;
   }
   
   nav ul li a:hover,
   nav ul li a.active {
     color: #444;
   }
-  
+
+  footer{
+    text-align: center;
+    width:100%;
+  }
+
+footer img{
+  height: 4.06rem;
+  padding: .875rem;
+  padding-top: .93rem;
+}
