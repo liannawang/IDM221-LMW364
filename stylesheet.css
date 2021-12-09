@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+/*
+ul {
+  margin: 0 0 1.5em 1.25em;
+}
+*/
+
+.navbar{
+  width:100%;
+  display:flex;
+  /*align-items: center;*/
+  margin: 1rem auto;
+}
+
+.logo{
+  height: 1.875rem;
+  align-items: left;
+}
+
+.intro{
+  padding-bottom: 1.5rem;
+  width:100%;
+}
+
+header{
+  position:relative;
+}
+
+.menu-icon{
+  height: 1.18rem;
+  float:right;
+}
+@font-face {
+    font-family: 'Sporting';
+    src: url('fonts/SportingGrotesque-Regular.otf'); }
+
+@font-face {
+  font-family: 'Moderat';
+  src: url(fonts/Moderat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Founding';
+  src: url(fonts/Test\ Founders\ Grotesk\ 400.otf);
+}
+
+h1{
+  font-family: Founding, Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.43em;
+  font-weight: 100;
+  
+  margin: 0rem auto;
+
+}
+
+h1.work{
+  padding-bottom: 1.25rem;
+}
+
+h2{
+  font-family: Sporting, Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.625rem;
+  font-weight:100;
+  padding-bottom: 1.25rem;
+  margin:0rem auto;
+}
+
+h3{
+  font-family: Founding,Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.94rem;
+  font-weight: 100;
+  margin:0rem auto;
+}
+
+.work p{
+  padding-bottom: 2.5rem;
+  width:100%;
+  margin:0rem auto;
+}
+
+p{
+  font-family: Moderat, Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  width:100%;
+  
+}
+
+
+
+body{
+  background-color: #FFFEFC;
+  /*margin: 2rem auto;*/
+  margin:0rem auto;
+  padding: 2rem;
+  width: 100%;
+  
+}
+
+.work{
+  text-align: center;
+  width:100%;
+}
+
+.work img{
+  max-width: 19rem;
+  max-height: 19rem;
+  display: block;
+  /*
+  margin-left: auto;
+  margin-right: auto;
+  */
+  margin: 0rem auto;
+  padding-bottom: 1.25rem;
+  width:100%;
+}
+
+.work h3{
+  padding-bottom: .1rem;
+  width: 100%;
+}
+
+nav{
+  flex: 1;
+  text-align:center;
+  width:100%;
+  font-family: Sporting, Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  line-height: 5rem;
+  padding-bottom: 40 px;
+}
+
+nav ul{
+  list-style-type:none;
+  margin-left: -40px;
+}
+  
+nav ul li {
+  display: inline-block;
+  /*margin-right: 1.875rem;*/
+  text-decoration: none;
+  width:100%
+}
+  
+nav ul li a {
+  color: #bbb;
+  font-weight: normal;
+  text-decoration: none;
+  width:100%;
+}
+  
+nav ul li a:hover,
+nav ul li a.active {
+  color: #444;
+}
+
+li{
+  display: list-item;
+}
+
+footer{
+  text-align: center;
+  width:100%;
+}
+
+footer img{
+  height: 4.06rem;
+  padding: .875rem;
+  padding-top: .93rem;
+}
+
+h3.contact{
+  padding-bottom: 2.5rem;
+}
+
+.text ul li{
+  font-family: Moderat, Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  width:100%;
+}
+
+.text img{
+  padding-bottom: 1.125rem;
+}
+
