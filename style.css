@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFFEFC;
+  /*margin: 2rem auto;*/
+  margin:0rem auto;
+  /*padding: 2rem;*/
+  width: 100%;
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'Sporting';
+    src: url('fonts/SportingGrotesque-Regular.otf'); }
+
+@font-face {
+  font-family: 'Moderat';
+  src: url(fonts/Moderat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Founding';
+  src: url(fonts/Test\ Founders\ Grotesk\ 400.otf);
+}
+
+/* TEXT FORMATTING*/
+h1 {
+  font-family: Founding, Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.43em;
+  font-weight: 100;
+  margin: 0rem auto;
+}
+
+h2 {
+  font-family: Sporting, Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.625rem;
+  font-weight:100;
+  padding-bottom: 1.25rem;
+  margin:0rem auto;
+}
+
+h3 {
+  font-family: Founding,Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.94rem;
+  font-weight: 100;
+  margin:0rem auto;
+}
+
+p{
+  font-family: Moderat, Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  width:100%;
+  
+}
+
+/* POSITIONING */
+header{
+  position:relative;
+}
+
+.intro {
+  padding: 0rem 2rem 1.5rem;
+  width:100%;
+}
+
+li{
+  display: list-item;
+}
+
+h3.contact{
+  padding-bottom: 14px;
+}
+
+
+/* NAV BAR */
+
+nav {
+  flex: 1;
+  text-align:center;
+  width:100%;
+  font-family: Sporting, Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  line-height: 5rem;
+}
+
+nav ul {
+  list-style-type:none;
+  margin-left: -40px;
+}
+  
+nav ul li {
+  display: inline-block;
+  /*margin-right: 1.875rem;*/
+  text-decoration: none;
+  width:100%
+}
+  
+nav ul li a {
+  color: #bbb;
+  font-weight: normal;
+  text-decoration: none;
+  width:100%;
+}
+  
+nav ul li a:hover,
+nav ul li a.active {
+  color: #444;
+}
+
+.navbar {
+  width:100%;
+  display:flex;
+  margin: 0rem auto;
+  padding: 2rem 2rem 1rem;
+}
+
+#navigation {
+  padding-bottom: 40px;
+}
+
+p.logo {
+  margin: 0rem;
+  font-size: 20px;
+  padding:0rem;
+  font-family: Sporting, Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+.navbar a{
+  text-decoration: none;
+}
+
+.menu-icon{
+  margin-top: 2px;
+  height: 1.18rem;
+  float:right;
+}
+
+/* WORK */
+h1.work{
+  padding-bottom: 1.25rem;
+}
+
+.work{
+  text-align: center;
+  width:100%;
+}
+
+.work p{
+  padding-bottom: 2.5rem;
+  width:100%;
+  margin:0rem auto;
+}
+
+.work img{
+  max-width: 19rem;
+  max-height: 19rem;
+  display: block;
+  margin: 0rem auto;
+  padding-bottom: 1.25rem;
+  width:100%;
+}
+
+.work h3{
+  padding-bottom: .1rem;
+  width: 100%;
+}
+
+
+.work a {
+  color:black;
+  text-decoration: none;
+}
+
+.work a:visited { 
+  text-decoration: none; 
+  color: black; 
+ }
+
+.work a:unvis
+
+/* INNER PAGES */
+main.text{
+  padding:0rem 2rem 2rem; 
+}
+
+.text ul li{
+  font-family: Moderat, Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  width:100%;
+}
+
+.text img{
+  padding-bottom: 1.125rem;
+}
+
+/* FOOTER */
+footer{
+  text-align: center;
+  width:100%;
+  background-color: #EFEFEF;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  color: #4e2759;
+}
+
+footer img{
+  height: 4.06rem;
+  padding: .875rem;
+  padding-top: .93rem;
+}
+
+
+
+
+
+
+
+

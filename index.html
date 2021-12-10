@@ -1,68 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lianna Wang</title>
-    <link rel= "stylesheet" href="stylesheet.css"/>
+    <link rel= "stylesheet" href="style.css"/>
     <link rel= "normalize" href="normalize.css"/>
-</head>
+  </head>
 
-<body>
-  <header>
-    <div class="navbar">
-      <a href="index.html"><img src="pictures/logo.png" class="logo" alt="logo"></a>
+  <body>
+    <!--Nav Bar- Goes to Bottom for Real Navigation-->
+    <header>
+      <div class="navbar">
+        <a href="index.html"><p class="logo">LIANNA WANG</p></a>
+        <nav>
+          <a href="#navigation"><img src="pictures/menu.png" class="menu-icon" alt="menu-icon"></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="intro">
+        <h1>Hi, I’m Lianna,
+          <br> UI/UX Designer👋</h1> <!--Check if emoji works on all platforms-->
+        <p>I’m passionate about solving problems with delightful and user-centered web design. Welcome to my design world! </p>
+      </div>
       
-      <nav>
-        <a href="#navigation"><img src="pictures/menu.png" class="menu-icon" alt="menu-icon"></a>
-      </nav>
-    </div>
+      <!--Portfolio Starts-->
+      <div class="work" id="portfolio">
+        <h2>MY WORK</h2>
+        <div class="reflectly">
+          <a href="reflectly.html"><img src="pictures/reflectly.png" alt="reflectly"></a>
+          <a href="reflectly.html"><h3>Reflectly Redesign</h3></a>
+          <p>Interaction Design</p>
+        </div>
+
+        <div class="dancemag">
+          <a href="dancemag.html"><img src="pictures/dancemag.png" alt="dancemag"></a> 
+          <a href="dancemag.html"><h3>Dance Magazine Redesign</h3></a>
+          <p>User Interface Design II</p>
+        </div>
+
+        <div class="tagteam">
+          <a href="tagteam.html"><img src="pictures/tagteam.png" alt="tagteam"></a>
+          <a href="tagteam.html"><h3>TagTeamSigns Redesign</h3></a>
+          <p>User Interface Design I</p>
+        </div>
+      </div>
+    </main>
     
-  </header>
-
-  <main>
-    <div class="intro">
-      <h1>Hi, I’m Lianna,
-        <br> UI/UX Designer   👋</h1>
-      <p>I’m passionate about solving problems with delightful and user-centered web design. Welcome to my design world! </p>
-    </div>
+    <!--Navigation- Switch to Hamburger next class-->
+    <nav id="navigation">
+      <h3>MENU</h3>
+      <ul>
+        <li><a href="#portfolio" class="active">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+      <p><a href="#top" >Back to Top ⬆️</a></p>
+    </nav>
     
-    <div class="work">
-      <h2>MY WORK</h2>
-      <div class="reflectly">
-        <a href="reflectly.html"><img src="pictures/reflectly.png" alt="reflectly"></a>
-        <h3>Reflectly Redesign</h3>
-        <p>Interaction Design</p>
-      </div>
-      <div class="dancemag">
-        <a href="dancemag.html"><img src="pictures/dancemag.png" alt="dancemag"></a> 
-        <h3>Dance Magazine Redesign</h3>
-        <p>User Interface Design II</p>
-      </div>
-      <div class="tagteam">
-        <a href="tagteam.html"><img src="pictures/tagteam.png" alt="tagteam"></a>
-        <h3>TagTeamSigns Redesign</h3>
-        <p>User Interface Design I</p>
-      </div>
-    </div>
-  </main>
-
-<footer>
-<nav id="navigation">
-  <h3>MENU</h3>
-    <ul>
-      <li><a href="index.html" class="active">Portfolio</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="resume.html">Resume</a></li>
-    </ul>
-  </nav>
-  
-  <h3 class="contact">Let's Connect!</h3>
-  <a href="https://www.linkedin.com/in/lianna-wang-20b5b3206"><img src="pictures/linkedin.png" alt="linkedin-icon"></a>
-  <a href = "mailto: lmw364@drexel.edu"><img src="pictures/mail icon purp.png" alt="mail-icon"></a>
-
-  <p><a href="#top" >Back to Top ⬆️</a></p> 
-</footer>    
-</body>
+    <footer>
+      <h3 class="contact">Let's Connect!</h3>
+      <a href="https://www.linkedin.com/in/lianna-wang-20b5b3206"><img src="pictures/linkedin.png" alt="linkedin-icon"></a>
+      <a href = "mailto: lmw364@drexel.edu"><img src="pictures/mail icon purp.png" alt="mail-icon"></a>
+    </footer>
+  </body>
 </html>
